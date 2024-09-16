@@ -7,9 +7,9 @@ const port = 3000;
 // Create a MySQL connection pool
 const pool = mysql.createPool({
   host: 'localhost',
-  user: 'ecomuser',
-  password: 'ecompassword',
-  database: 'ecomdb',
+  user: 'storeuser',
+  password: 'storepassword',
+  database: 'storedb',
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0
